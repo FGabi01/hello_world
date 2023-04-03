@@ -28,9 +28,9 @@ public class GamePane extends Canvas {
         GamePane m=new GamePane();  
         JFrame f=new JFrame();
         f.add(m);
-        f.setSize(1440,900);
-        //f.setLayout(null);  
-        f.setVisible(true);  
+        f.setSize(1440,1220);
+        //f.setLayout(null);
+        f.setVisible(true);
     }  
   
 }
