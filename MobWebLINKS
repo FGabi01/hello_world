@@ -1,3 +1,7 @@
 https://stackoverflow.com/questions/14473202/fragmentmanager-multiple-on-screen-fragments
 https://stackoverflow.com/questions/29838617/how-to-display-2-fragments-side-by-side-in-landscape
 https://stackoverflow.com/questions/58705118/kotlin-how-to-use-new-webview-open-a-javascripts-window-open
+
+In themes.xml change 
+    <style name="Base.Theme.WeatherInfo" parent="Theme.Material3.DayNight"> to 
+    <style name="Base.Theme.WeatherInfo" parent="Theme.Material3.DayNight.NoActionBar"> <- Hide top action bar for now
